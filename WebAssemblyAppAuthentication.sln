@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAssemblyAppAuthentication.Server", "WebAssemblyAppAuthentication\Server\WebAssemblyAppAuthentication.Server.csproj", "{F4FE264B-B17C-4A43-8DFA-D20A1EC4839D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAssemblyAppAuthentication.Client", "WebAssemblyAppAuthentication\Client\WebAssemblyAppAuthentication.Client.csproj", "{D71BB605-DAC4-485E-839D-802A10C27380}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAssemblyAppAuthentication.Shared", "WebAssemblyAppAuthentication\Shared\WebAssemblyAppAuthentication.Shared.csproj", "{66F8373B-8E73-4E5C-8270-57732E5689E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4FE264B-B17C-4A43-8DFA-D20A1EC4839D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4FE264B-B17C-4A43-8DFA-D20A1EC4839D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4FE264B-B17C-4A43-8DFA-D20A1EC4839D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4FE264B-B17C-4A43-8DFA-D20A1EC4839D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D71BB605-DAC4-485E-839D-802A10C27380}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D71BB605-DAC4-485E-839D-802A10C27380}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D71BB605-DAC4-485E-839D-802A10C27380}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D71BB605-DAC4-485E-839D-802A10C27380}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66F8373B-8E73-4E5C-8270-57732E5689E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66F8373B-8E73-4E5C-8270-57732E5689E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66F8373B-8E73-4E5C-8270-57732E5689E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66F8373B-8E73-4E5C-8270-57732E5689E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C715C5B2-11E2-4E93-BB15-D9976BFC8A67}
+	EndGlobalSection
+EndGlobal
